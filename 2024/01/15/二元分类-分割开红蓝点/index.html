@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+  <meta name="robots" content="index, follow">
+  <!-- title -->
+  
+    
+  <title>二元分类-分割开红蓝点 - Hexo</title>
+    
+  
+  
+  <!-- open graph -->
+  <meta name="description" content="附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面">
+<meta property="og:type" content="article">
+<meta property="og:title" content="二元分类-分割开红蓝点">
+<meta property="og:url" content="https://mixintu.github.io/2024/01/15/%E4%BA%8C%E5%85%83%E5%88%86%E7%B1%BB-%E5%88%86%E5%89%B2%E5%BC%80%E7%BA%A2%E8%93%9D%E7%82%B9/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://mixintu.github.io/images/2024-01-15/001.png">
+<meta property="og:image" content="https://mixintu.github.io/images/2024-01-15/002.png">
+<meta property="og:image" content="https://mixintu.github.io/images/2024-01-15/003.png">
+<meta property="og:image" content="https://mixintu.github.io/images/2024-01-15/004.png">
+<meta property="og:image" content="https://mixintu.github.io/images/2024-01-15/005.png">
+<meta property="og:image" content="https://mixintu.github.io/images/2024-01-15/006.png">
+<meta property="article:published_time" content="2024-01-15T03:27:36.000Z">
+<meta property="article:modified_time" content="2024-01-15T06:34:03.888Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mixintu.github.io/images/2024-01-15/001.png">
+  <!-- canonical -->
+  
+  <link rel="canonical" href="https://mixintu.github.io/2024/01/15/二元分类-分割开红蓝点/">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <!-- CSS -->
+  
+<link rel="stylesheet" href="/css/reset.css">
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<link rel="stylesheet" href="/css/markdown.css">
+
+  
+<link rel="stylesheet" href="/css/fonts.css">
+
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+    <body>
+        <div class="paper">
+            <div class="paper-main">
+                
+                    <div class="post-header">
+    <a class="logo" href="/">Hexo</a>
+    <!-- <div class="logo"><a href="/" title="Len"><img src="/img/logo.svg" alt="Len" aria-label="logo" height="20"></a></div> -->
+        <ul class="nav">
+            
+            <li><a href="/">Home</a></li>
+            
+            <li><a href="/about">About</a></li>
+            
+            <li><a href="/archives">Archives</a></li>
+            
+        </ul>
+
+
+    </a>
+</div>
+
+                
+                <div class="post-main">
+    
+        <div class="post-main-title">
+            二元分类-分割开红蓝点
+        </div>
+        <div class="post-meta">
+            2024-01-15 ｜ 
+            
+                <a href="/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/"># 默认分类</a>
+            
+        </div>
+        <!-- 圆角分类 -->
+        <!-- <div class="tags"> -->
+            <!--  -->
+                <!-- <a href="/categories/%E9%BB%98%E8%AE%A4%E5%88%86%E7%B1%BB/">默认分类</a> -->
+            <!--  -->
+        <!-- </div> -->
+        <div class="post-md">
+            <h2 id="当-epochs-等于-1000-次的训练训练效果"><a href="#当-epochs-等于-1000-次的训练训练效果" class="headerlink" title="当 epochs 等于 1000 次的训练训练效果"></a>当 epochs 等于 1000 次的训练训练效果</h2><p><img src="/../images/2024-01-15/001.png" alt="Alt text"></p>
+<p><img src="/../images/2024-01-15/002.png" alt="Alt text"></p>
+<p><img src="/../images/2024-01-15/003.png" alt="Alt text"></p>
+<h2 id="日志输出"><a href="#日志输出" class="headerlink" title="日志输出"></a>日志输出</h2><details>
+<summary><=================== 展开日志输出 ===================></summary><pre><code>
+D:\Anaconda3\envs\pytorch20Pro\python.exe Z:\Working\pytorch20Pro\二元分类\002.py 
+<===========================================================>
+&#123;   'CUDA版本号': '12.1',
+    'CuDNN版本号': 8801,
+    'GPU数量': 1,
+    'PyTorch版本号': '2.1.0+cu121',
+    'Python版本号': '3.10',
+    'Torchvision版本号': '0.16.0+cu121',
+    'numpy版本号': '1.24.1',
+    '当前CUDA设备': 0,
+    '显卡名称': 'NVIDIA GeForce RTX 2080 Ti',
+    '检查是否安装了所需的英伟达驱动和CUDA库': True,
+    '精度类型': 'highest'&#125;
+<===========================================================>
+Epoch 1000/1000:Loss: 0.62767, Accuracy: 67.00% | Test loss: 0.64133, Test acc: 60.00%: 100%|██████████| 1000/1000 [00:02<00:00, 417.05it/s]
+60.0
+
+<p>Process finished with exit code 0</p>
+</code>
+</pre>
+</details>
+
+
+
+
+
+
+
+<h2 id="当-epochs-等于-10000-次的训练训练效果"><a href="#当-epochs-等于-10000-次的训练训练效果" class="headerlink" title="当 epochs 等于 10000 次的训练训练效果"></a>当 epochs 等于 10000 次的训练训练效果</h2><p><img src="/../images/2024-01-15/004.png" alt="Alt text"></p>
+<p><img src="/../images/2024-01-15/005.png" alt="Alt text"></p>
+<p><img src="/../images/2024-01-15/006.png" alt="Alt text"></p>
+<h2 id="日志输出-1"><a href="#日志输出-1" class="headerlink" title="日志输出"></a>日志输出</h2><details>
+<summary><=================== 展开日志输出 ===================></summary><pre><code>
+D:\Anaconda3\envs\pytorch20Pro\python.exe Z:\Working\pytorch20Pro\二元分类\002.py 
+<===========================================================>
+&#123;   'CUDA版本号': '12.1',
+    'CuDNN版本号': 8801,
+    'GPU数量': 1,
+    'PyTorch版本号': '2.1.0+cu121',
+    'Python版本号': '3.10',
+    'Torchvision版本号': '0.16.0+cu121',
+    'numpy版本号': '1.24.1',
+    '当前CUDA设备': 0,
+    '显卡名称': 'NVIDIA GeForce RTX 2080 Ti',
+    '检查是否安装了所需的英伟达驱动和CUDA库': True,
+    '精度类型': 'highest'&#125;
+<===========================================================>
+Epoch 10000/10000:Loss: 0.00158, Accuracy: 100.00% | Test loss: 0.00418, Test acc: 100.00%: 100%|██████████| 10000/10000 [00:24<00:00, 400.16it/s]
+100.0
+
+<p>Process finished with exit code 0</p>
+</code>
+</pre>
+</details>
+
+
+
+
+
+<h2 id="源代码"><a href="#源代码" class="headerlink" title="源代码"></a>源代码</h2><details>
+<summary><=================== 展开源代码 ===================></summary><pre><code>
+# %%
+import time
+
+<p>import torch</p>
+<h1 id=""><a href="#" class="headerlink" title="&lt;- 包含计算图的所有构建块（本质上是以特定方式执行的一系列计算）"></a>&lt;- 包含计算图的所有构建块（本质上是以特定方式执行的一系列计算）</h1><p>import torch.nn as nn</p>
+<h1 id="-1"><a href="#-1" class="headerlink" title="&lt;- 包含各种优化算法（这些算法告诉存储在中的模型参数如何最好地更改以改善梯度下降并进而减少损失）"></a>&lt;- 包含各种优化算法（这些算法告诉存储在中的模型参数如何最好地更改以改善梯度下降并进而减少损失）</h1><p>import torch.optim as optim</p>
+<h1 id="预加载数据"><a href="#预加载数据" class="headerlink" title="预加载数据"></a>预加载数据</h1><p>from torch.utils.data import DataLoader</p>
+<h1 id="-2"><a href="#-2" class="headerlink" title="%%"></a>%%</h1><p>import torchvision<br>from torchvision.transforms import ToTensor<br>from torchvision import datasets, transforms<br>from torchvision.datasets.mnist import MNIST</p>
+<h1 id="-3"><a href="#-3" class="headerlink" title="%%"></a>%%</h1><p>import sys<br>import numpy as np<br>import matplotlib.pyplot as plt<br>from pathlib import Path<br>from pprint import pprint<br>from tqdm import tqdm<br>from sklearn.datasets import make_circles<br>from sklearn.model_selection import train_test_split<br>from helper_functions import plot_predictions, plot_decision_boundary</p>
+<p>print(“&lt;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;”)<br>DEVICE &#x3D; torch.device(‘cuda’ if torch.cuda.is_available() else ‘cpu’)<br>pprint(&#123;<br>    “检查是否安装了所需的英伟达驱动和CUDA库”: torch.cuda.is_available(),<br>    “精度类型”: torch.get_float32_matmul_precision(),<br>    “CuDNN版本号”: torch.backends.cudnn.version(),<br>    “显卡名称”: torch.cuda.get_device_name(torch.cuda.current_device()),<br>    “当前CUDA设备”: torch.cuda.current_device(),<br>    “CUDA版本号”: torch.version.cuda,<br>    “GPU数量”: torch.cuda.device_count(),<br>    “PyTorch版本号”: torch.<strong>version</strong>,<br>    “Torchvision版本号”: torchvision.<strong>version</strong>,<br>    “numpy版本号”: np.<strong>version</strong>,<br>    “Python版本号”: sys.winver,<br>&#125;, width&#x3D;50, indent&#x3D;4)<br>print(“&lt;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&gt;”)<br>torch.cuda.empty_cache()  # 清空内存</p>
+<h1 id="-4"><a href="#-4" class="headerlink" title="&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;"></a>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</h1><h1 id="Preprocessing"><a href="#Preprocessing" class="headerlink" title="Preprocessing"></a>Preprocessing</h1><h1 id="-5"><a href="#-5" class="headerlink" title="&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;"></a>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</h1><h1 id="1-Construct-a-model-class-that-subclasses-nn-Module"><a href="#1-Construct-a-model-class-that-subclasses-nn-Module" class="headerlink" title="1. Construct a model class that subclasses nn.Module"></a>1. Construct a model class that subclasses nn.Module</h1><p>class CircleModelV0(nn.Module):<br>    def <strong>init</strong>(self):<br>        super().<strong>init</strong>()<br>        # 2. Create 2 nn.Linear layers capable of handling X and y input and output shapes<br>        self.layer_1 &#x3D; nn.Linear(in_features&#x3D;2, out_features&#x3D;5)  # takes in 2 features (X), produces 5 features<br>        self.layer_2 &#x3D; nn.Linear(in_features&#x3D;5, out_features&#x3D;1)  # takes in 5 features, produces 1 feature (y)</p>
+<pre><code># 3. Define a forward method containing the forward pass computation
+def forward(self, x):
+    # Return the output of layer_2, a single feature, the same shape as y
+    # computation goes through layer_1 first then the output of layer_1 goes through layer_2
+    return self.layer_2(self.layer_1(x))
+</code></pre>
+<p>class CircleModelV1(nn.Module):<br>    def <strong>init</strong>(self):<br>        super().<strong>init</strong>()<br>        self.layer_1 &#x3D; nn.Linear(in_features&#x3D;2, out_features&#x3D;10)<br>        self.layer_2 &#x3D; nn.Linear(in_features&#x3D;10, out_features&#x3D;10)  # extra layer<br>        self.layer_3 &#x3D; nn.Linear(in_features&#x3D;10, out_features&#x3D;1)</p>
+<pre><code>def forward(self, x):  # note: always make sure forward is spelt correctly!
+    return self.layer_3(self.layer_2(self.layer_1(x)))
+</code></pre>
+<p>class CircleModelV2(nn.Module):<br>    def <strong>init</strong>(self):<br>        super().<strong>init</strong>()<br>        self.layer_1 &#x3D; nn.Linear(in_features&#x3D;2, out_features&#x3D;10)<br>        self.layer_2 &#x3D; nn.Linear(in_features&#x3D;10, out_features&#x3D;10)<br>        self.layer_3 &#x3D; nn.Linear(in_features&#x3D;10, out_features&#x3D;1)<br>        self.relu &#x3D; nn.ReLU()  # &lt;- add in ReLU activation function<br>        # Can also put sigmoid in the model<br>        # This would mean you don’t need to use it on the predictions<br>        # self.sigmoid &#x3D; nn.Sigmoid()</p>
+<pre><code>def forward(self, x):
+    # Intersperse the ReLU activation function between layers
+    return self.layer_3(self.relu(self.layer_2(self.relu(self.layer_1(x)))))
+</code></pre>
+<p>def accuracy_fn(y_pred, y_true):<br>    # torch.eq() calculates where two tensors are equal<br>    correct &#x3D; torch.eq(y_true, y_pred).sum().item()<br>    return (correct &#x2F; len(y_pred)) * 100</p>
+<p>def train(network, loss_fn, X_blob_train, y_blob_train, X_blob_test, y_blob_test):<br>    counts &#x3D; []<br>    train_loss_values &#x3D; []<br>    test_loss_values &#x3D; []<br>    epochs &#x3D; 10000<br>    for epoch in (bar :&#x3D; tqdm(range(1, epochs + 1), position&#x3D;0)):<br>        ############<br>        # Training #<br>        ############<br>        network.train()<br>        # 1、执行前向传递，绕过我们的数据并找出 y 的预测值。<br>        y_logits &#x3D; network(X_blob_train).squeeze()<br>        # logits -&gt; 预测概率 -&gt; 预测标签    查找预测标签（四舍五入预测概率）<br>        y_pred_train &#x3D; torch.round(torch.sigmoid(y_logits))<br>        # 2、使用 MSE 计算损失。<br>        train_loss &#x3D; loss_fn(y_logits, y_blob_train)<br>        train_acc &#x3D; accuracy_fn(y_pred&#x3D;y_pred_train, y_true&#x3D;y_blob_train)<br>        # 3、Zero grad of the optimizer<br>        optimizer.zero_grad()  # 清除上一次迭代中的渐变<br>        # 4. Loss backwards<br>        train_loss.backward()  # 计算神经元的梯度<br>        # 5. Progress the optimizer<br>        optimizer.step()  # 更新权重</p>
+<pre><code>    ##############
+    # Validation #
+    ##############
+    network.eval()
+    with torch.inference_mode():
+        test_logits = network(X_blob_test).squeeze()
+        # logits -&gt; 预测概率 -&gt; 预测标签    查找预测标签（四舍五入预测概率）
+        y_pred_test = torch.round(torch.sigmoid(test_logits))
+        test_loss = loss_fn(test_logits, y_blob_test)
+        test_acc = accuracy_fn(y_pred=y_pred_test, y_true=y_blob_test)
+        # print(&#39;epoch &#123;&#125;, loss &#123;&#125;&#39;.format(epoch, loss.item()))
+        bar.set_description(
+            &#39;Epoch &#123;&#125;/&#123;&#125;:Loss: &#123;:.5f&#125;, Accuracy: &#123;:.2f&#125;% | Test loss: &#123;:.5f&#125;, Test acc: &#123;:.2f&#125;%&#39;.format(
+                epoch, epochs, train_loss, train_acc, test_loss, test_acc
+            ))
+        if epoch % 10 == 0:
+            counts.append(epoch)
+            train_loss_values.append(train_loss.item())
+            test_loss_values.append(test_loss.item())
+return &#123;&quot;counts&quot;: counts,
+        &quot;train_loss_values&quot;: train_loss_values,
+        &quot;test_loss_values&quot;: test_loss_values&#125;
+</code></pre>
+<p>if <strong>name</strong> &#x3D;&#x3D; ‘<strong>main</strong>‘:<br>    # 文章：<a target="_blank" rel="noopener" href="https://www.learnpytorch.io/02_pytorch_classification/">https://www.learnpytorch.io/02_pytorch_classification/</a></p>
+<pre><code># 模型问题：
+# 由于我们的数据是圆形的，它目前正在尝试使用直线分割红点和蓝点，
+# 就导致我们的模型是欠拟合的，这意味着它没有从数据中学习预测模式。
+# model = CircleModelV0().to(DEVICE)
+# 模型问题：同上
+# model = CircleModelV1().to(DEVICE)
+model = CircleModelV2().to(DEVICE)
+# 通常会使用二元交叉熵【二元分类】 -- 内置 sigmoid 层
+# BCEWithLogitsLoss = sigmoid built-in
+criterion = nn.BCEWithLogitsLoss()
+# 随机梯度下降【分类、回归等等】
+optimizer = torch.optim.SGD(params=model.parameters(), lr=0.1)
+
+# 可视化训练数据
+n_samples = 500
+X, y = make_circles(n_samples, noise=0.03,  # 点上有一点噪音
+                    random_state=42)  # 保持随机状态，这样我们得到相同的值
+plt.scatter(x=X[:, 0], y=X[:, 1], c=y, cmap=plt.cm.RdYlBu)
+plt.show()
+
+# 数据集
+X = torch.from_numpy(X).type(torch.float)
+y = torch.from_numpy(y).type(torch.float)
+(X_train,
+ X_test,
+ y_train,
+ y_test) = train_test_split(X, y,
+                            test_size=0.2,  # 20% test, 80% train
+                            random_state=42)  # make the random split reproducible
+X_train, y_train = X_train.to(DEVICE), y_train.to(DEVICE)
+X_test, y_test = X_test.to(DEVICE), y_test.to(DEVICE)
+
+# 训练中
+resource = train(model, criterion, X_train, y_train, X_test, y_test)
+
+model.eval()
+with torch.inference_mode():
+    y_preds = torch.round(torch.sigmoid(model(X_test))).squeeze()
+    correct = torch.eq(y_preds, y_test).sum().item()
+    print((correct / len(y_test)) * 100)
+
+    # 可视化训练集和测试集绘制决策边界
+    plt.figure(figsize=(12, 6))
+    plt.subplot(1, 2, 1)
+    plt.title(&quot;Train&quot;)
+    plot_decision_boundary(model, X_train, y_train)
+    plt.subplot(1, 2, 2)
+    plt.title(&quot;Test&quot;)
+    plot_decision_boundary(model, X_test, y_test)
+    plt.show()
+
+# 可视化训练损失比率
+plt.plot(resource[&#39;counts&#39;], resource[&#39;train_loss_values&#39;], label=&quot;Train loss&quot;)
+plt.plot(resource[&#39;counts&#39;], resource[&#39;test_loss_values&#39;], label=&quot;Test loss&quot;)
+plt.title(&quot;Training and test loss curves&quot;)
+plt.ylabel(&quot;Loss&quot;)
+plt.xlabel(&quot;Epochs&quot;)
+plt.legend()
+plt.show()
+</code></pre>
+</code>
+</pre>
+</details>
+        </div>
+    
+<!-- tags -->
+
+</div>
+                <div class="footer">
+    <span>Copyright © 2023 Hexo</span>
+    <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> with <a target="_blank" rel="noopener" href="https:///imzl.com/zenmind">ZenMind</a></span>
+</div>
+
+<link rel="stylesheet" href="/css/a11y-dark.min.css">
+
+
+<script src="/js/highlight.min.js"></script>
+
+
+<script src="/js/highlightjs-line-numbers.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+    hljs.initLineNumbersOnLoad();
+</script>
+
+            </div>
+        </div>
+    </body>
+</html>
